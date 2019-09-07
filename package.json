@@ -1,0 +1,29 @@
+{
+  "name": "panel-jade-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "js-beautify": "^1.10.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "virtual-jade": "^0.11.1",
+    "virtual-jade-loader": "^1.0.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "panel": "2.2.0",
+    "snabbdom": "^0.7.3"
+  },
+  "keywords": [],
+  "description": ""
+}
