@@ -1,0 +1,19 @@
+div
+  p This is a child with content
+  pnl-link(attrs={to:$attr('route-url') + `/nested`}) Nested
+  pnl-route(
+    attrs={
+      path: $attr('route-url'),
+      exact: true,
+    }
+    props={
+      template: $helpers.exact
+    }
+  )
+  pnl-route(
+    attrs={
+      path:  $attr('route-url') + `/nested`,
+      element: 'dummy-child'
+    }
+  )
+

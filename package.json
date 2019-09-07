@@ -22,7 +22,11 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
+    "@types/history": "^4.7.3",
+    "@types/path-to-regexp": "^1.7.0",
+    "history": "^4.9.0",
     "panel": "2.2",
+    "path-to-regexp": "^3.1.0",
     "snabbdom": "^0.7.3"
   },
   "keywords": [],

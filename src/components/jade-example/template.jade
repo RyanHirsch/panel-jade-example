@@ -1,4 +1,34 @@
 div
-  p
-    | child value = 
-    span= value
+  pnl-link(attrs={to: "/"}) Home
+  br
+  pnl-link(attrs={to: "/bar"}) Bar
+  br
+  pnl-link(attrs={to: "/baz"}) Baz
+  br
+  pnl-link(attrs={to: "/child"}) Child Example
+  hr
+  pnl-route(
+    attrs={
+      path: "/",
+      exact: true,
+      element: 'dummy-foo'
+    }
+  )
+  pnl-route(
+    attrs={
+      path: "/bar",
+      element: 'dummy-bar'
+    }
+  )
+  pnl-route(
+    attrs={
+      path: "/baz",
+      element: 'dummy-baz'
+    }
+  )
+  pnl-route(
+    attrs={
+      path: "/child",
+      element: 'child-example'
+    }
+  )
