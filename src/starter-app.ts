@@ -10,9 +10,6 @@ class StarterApp extends Component<{}, {}, unknown, {}> {
         h("div.app", [h("div.about", [h("p", `This is a sample app.`)]), h("jade-example")]),
     };
   }
-  connectedCallback() {
-    super.connectedCallback();
-  }
 }
 
 customElements.define("starter-app", StarterApp);
