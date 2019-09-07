@@ -1,21 +1,16 @@
 {
   "compilerOptions": {
-    "lib": [
-      "es2018",
-      "dom"
-    ],
     "outDir": "./dist/",
+    "sourceMap": true,
+    "lib": ["es2018", "dom"],
+    "target": "es6",
     "noImplicitAny": true,
     "strict": true,
-    "module": "es6",
-    "target": "es5",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
     "allowJs": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./types",
-    ],
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "baseUrl": "."
   },
-  "exclude": [
-    "./node_modules",
-  ],
+  "exclude": ["./node_modules"]
 }

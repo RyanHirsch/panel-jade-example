@@ -3,7 +3,7 @@ import { Component, ConfigOptions } from "panel";
 import { State, Attrs } from "./types";
 import template from "./template.jade";
 
-export default class RyExample extends Component<State, {}, unknown, Attrs> {
+export default class JadeExample extends Component<State, {}, unknown, Attrs> {
   get config(): ConfigOptions<State> {
     return {
       defaultState: {
@@ -14,4 +14,4 @@ export default class RyExample extends Component<State, {}, unknown, Attrs> {
   }
 }
 
-customElements.define("ry-example", RyExample);
+customElements.define("jade-example", JadeExample);
