@@ -23,3 +23,9 @@ which appears to be a `disconnectedCallback` running
     this.domPatcher.disconnect();
   }
 ```
+
+## Running
+
+1. `yarn install`
+2. `yarn start`
+3. Open browser <http://localhost:8080/>
