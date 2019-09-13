@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.ts",
   devtool: "inline-source-map",
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".ts", ".js", ".styl"],
   },
   module: {
     rules: [
@@ -28,6 +28,11 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      { test: /\.styl$/, loader: "style-loader!css-loader!stylus-loader" },
     ],
   },
   plugins: [

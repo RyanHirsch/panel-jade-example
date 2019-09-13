@@ -11,8 +11,12 @@
     "@babel/preset-env": "^7.4.5",
     "@types/webcomponents.js": "^0.6.34",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
     "js-beautify": "^1.10.0",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "ts-loader": "^6.0.4",
     "typescript": "^3.6.2",
     "virtual-jade": "^0.11.1",
@@ -22,7 +26,7 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "panel": "2.2",
+    "panel": "2.3.0",
     "snabbdom": "^0.7.3"
   },
   "keywords": [],

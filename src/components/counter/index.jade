@@ -1,0 +1,5 @@
+.counter
+  .display Current Count #{count}
+  .actions
+    button.inc(on={click: () => $helpers.handleCounterChangeClick(1)}) +1
+    button.dec(on={click: () => $helpers.handleCounterChangeClick(-1)}) -1
